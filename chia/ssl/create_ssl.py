@@ -14,8 +14,8 @@ from cryptography.x509.oid import NameOID
 
 
 def get_chia_ca_crt_key() -> Tuple[Any, Any]:
-    crt = pkg_resources.resource_string(__name__, "hddcoin_ca.crt")
-    key = pkg_resources.resource_string(__name__, "hddcoin_ca.key")
+    crt = pkg_resources.resource_string(__name__, "chia_ca.crt")
+    key = pkg_resources.resource_string(__name__, "chia_ca.key")
     return crt, key
 
 
