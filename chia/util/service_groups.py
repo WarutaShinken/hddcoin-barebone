@@ -1,20 +1,20 @@
 from typing import KeysView, Generator
 
 SERVICES_FOR_GROUP = {
-    "all": "chia_harvester chia_timelord_launcher chia_timelord chia_farmer chia_full_node chia_wallet".split(),
+    "all": "hddcoin_harvester hddcoin_timelord_launcher hddcoin_timelord hddcoin_farmer hddcoin_full_node hddcoin_wallet".split(),
     "node": "hddcoin_full_node".split(),
     "harvester": "hddcoin_harvester".split(),
-    "farmer": "chia_harvester chia_farmer chia_full_node chia_wallet".split(),
-    "farmer-no-wallet": "chia_harvester chia_farmer chia_full_node".split(),
+    "farmer": "hddcoin_harvester hddcoin_farmer hddcoin_full_node hddcoin_wallet".split(),
+    "farmer-no-wallet": "hddcoin_harvester hddcoin_farmer hddcoin_full_node".split(),
     "farmer-only": "hddcoin_farmer".split(),
-    "timelord": "chia_timelord_launcher chia_timelord chia_full_node".split(),
+    "timelord": "hddcoin_timelord_launcher hddcoin_timelord hddcoin_full_node".split(),
     "timelord-only": "hddcoin_timelord".split(),
     "timelord-launcher-only": "hddcoin_timelord_launcher".split(),
     "wallet": "hddcoin_wallet".split(),
     "introducer": "hddcoin_introducer".split(),
     "simulator": "hddcoin_full_node_simulator".split(),
     "crawler": "hddcoin_crawler".split(),
-    "seeder": "chia_crawler chia_seeder".split(),
+    "seeder": "hddcoin_crawler hddcoin_seeder".split(),
     "seeder-only": "hddcoin_seeder".split(),
 }
 
