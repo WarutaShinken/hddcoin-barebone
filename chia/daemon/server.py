@@ -90,7 +90,7 @@ class PlotEvent(str, Enum):
 # determine if application is a script file or frozen exe
 if getattr(sys, "frozen", False):
     name_map = {
-        "chia": "chia",
+        "hddcoin": "hddcoin",
         "hddcoin_wallet": "start_wallet",
         "hddcoin_full_node": "start_full_node",
         "hddcoin_harvester": "start_harvester",
