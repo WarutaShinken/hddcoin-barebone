@@ -18,7 +18,7 @@ network_overrides: &network_overrides
       GENESIS_PRE_FARM_FARMER_PUZZLE_HASH: "5ed49df42106663947059a3323da310f24c804c6cf7420f3c1ac0cffb3f9d2b3"
   config:
     mainnet:
-      address_prefix: "xch"
+      address_prefix: "hdd"
       default_full_node_port: 28444
 
 selected_network: &selected_network "mainnet"
@@ -31,9 +31,9 @@ private_ssl_ca:
   crt: "config/ssl/ca/private_ca.crt"
   key: "config/ssl/ca/private_ca.key"
 
-chia_ssl_ca:
-  crt: "config/ssl/ca/chia_ca.crt"
-  key: "config/ssl/ca/chia_ca.key"
+hddcoin_ssl_ca:
+  crt: "config/ssl/ca/hddcoin_ca.crt"
+  key: "config/ssl/ca/hddcoin_ca.key"
 
 
 daemon_ssl:
@@ -89,9 +89,9 @@ harvester:
     crt: "config/ssl/ca/private_ca.crt"
     key: "config/ssl/ca/private_ca.key"
 
-  chia_ssl_ca:
-    crt: "config/ssl/ca/chia_ca.crt"
-    key: "config/ssl/ca/chia_ca.key"
+  hddcoin_ssl_ca:
+    crt: "config/ssl/ca/hddcoin_ca.crt"
+    key: "config/ssl/ca/hddcoin_ca.key"
 
 pool:
   # Replace this with a real puzzle hash
