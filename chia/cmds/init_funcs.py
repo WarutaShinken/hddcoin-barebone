@@ -130,7 +130,7 @@ def check_keys(new_root: Path, keychain: Optional[Keychain] = None) -> None:
             print(
                 f"WARNING: using a farmer address which we might not have the private"
                 f" keys for. We searched the first {number_of_ph_to_search} addresses. Consider overriding "
-                f"{config['farmer']['xch_target_address']} with {all_targets[0]}"
+                f"{config['farmer']['hdd_target_address']} with {all_targets[0]}"
             )
 
         if "pool" not in config:
@@ -143,7 +143,7 @@ def check_keys(new_root: Path, keychain: Optional[Keychain] = None) -> None:
             print(
                 f"WARNING: using a pool address which we might not have the private"
                 f" keys for. We searched the first {number_of_ph_to_search} addresses. Consider overriding "
-                f"{config['pool']['xch_target_address']} with {all_targets[0]}"
+                f"{config['pool']['hdd_target_address']} with {all_targets[0]}"
             )
         if updated_target:
             print(
