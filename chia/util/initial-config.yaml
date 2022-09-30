@@ -392,7 +392,7 @@ wallet:
 
   full_node_peer:
     host: *self_hostname
-    port: 8444
+    port: 28444
 
   multiprocessing_start_method: default
 
